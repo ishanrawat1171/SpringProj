@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form th:action="@{/buyer1}" th:object="${Buyer}" method="post">
+
+
+Buyer Id : <input type="number" name="buyerId"><br><br>
+Full Name : <input type="text" name="buyerName"><br><br>
+Email : <input type="email" name="buyeremail"><br><br>
+Buyer Pin code : <input type="text" name="Buyerpincode"><br><br>
+Flat No.: <input type="text" name="flatno"><br><br>
+Area : <input type="text" name="area"><br><br>
+LandMark : <input type="text" name="landmark"><br><br>
+Town : <input type="text" name="town"><br><br>
+
+<input type="submit" value="Submit"><br><br>
+</form>
+</body>
+</html>
